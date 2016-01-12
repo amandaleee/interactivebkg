@@ -15,11 +15,20 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="../file/js/modernizr.js"></script>
 	</head>
-	<body>
+	<body class="bg" data-ibg-bg="bg.jpg">
 
-    	  <div class="bg" data-ibg-bg="bg.jpg"></div>
+    	  <div ></div>
     	<script type="text/javascript">
-        $(".bg").interactive_bg();
+        $(".bg").interactive_bg(
+
+    	);
+    	$(window).resize(function() {
+		      $(".bg > .ibg-bg").css({
+		        width: $(window).outerWidth(),
+		        height: $(window).outerHeight()
+		      })
+		   })
+
       </script>
 	</body>
 </html>
