@@ -21,6 +21,10 @@ body {
   margin: 0;
   min-height: 100%;
 }
+.container { 
+  width: 100%;
+  padding: 0;
+}
 .main  {
   margin: 25px auto;
   max-width: 980px;
@@ -38,53 +42,27 @@ body {
 }
 
 /* ALL DEMO */
-.demo5 body {
+.interactive-bkg body {
   width: 100%;
   min-height: 100%;
   position: absolute;
 }
 
-.demo2 .bg {
-  width: 800px;
-  height: 500px;
-  margin: auto;
-}
 
-.demo3 .bg {
-  width: 800px;
-  height: 500px;
-  margin: auto;
-}
 
-.demo4 .container {
-  text-align: center;
-}
-
-.demo4 .bg {
-  width: 400px;
-  height: 400px;
-  display: inline-block;
-}
-
-.demo1 .bg {
-  width: 800px;
-  height: 500px;
-  margin: auto;
-}
-
-.demo5 .bg {
+.interactive-bkg .bg {
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 0;
 }
 
-.demo5 .nav-top, .demo5 .header, .demo5 .menu {
+.interactive-bkg .nav-top, .interactive-bkg .header, .interactive-bkg .addressform {
   position: relative;
 }
-.demo5 .header {
+.interactive-bkg .header {
   color: white;
 }
-.demo5 .ibg-bg {
+.interactive-bkg .ibg-bg {
   position: absolute;
 }
