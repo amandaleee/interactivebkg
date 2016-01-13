@@ -64,4 +64,17 @@
 			- mobile/tablet testing
 		-->
 	</body>
+	<script>
+		$('#myform').submit(function(event) {
+			event.preventDefault();
+			$.ajax({
+				type: "POST",
+				url: "post.php",
+				data: $(this).serialize(),		
+				success: function(data){
+					$('#result').html(data);
+				}					
+			});
+		});
+	</script>
 </html>
