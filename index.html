@@ -19,13 +19,19 @@
 	<body>
 		<div class="container bg" data-ibg-bg="bg.jpg">
 			<div class="addressform">
+				<h1>Want a postcard? Enter your info here.</h1>
 				<form class="">
 					<input type="text" placeholder="name" />
 					<input type="text" placeholder="address" />
 					<input type="text" placeholder="city" />
 					<input type="text" placeholder="state" />
 					<input type="text" placeholder="zip" />
+					<input type="text" placeholder="country" />
 					<input type="text" placeholder="email" />
+					<label for="notabot" class="notabot">I'm not a bot
+						<input type="checkbox" value="i'm not a bot" name="notabot" />
+					</label>
+					
 					<input type="submit" value="sendmeapostcard" />
 				</form>
 			</div>
@@ -33,6 +39,12 @@
     	<script type="text/javascript">
         $(".bg").interactive_bg();
       </script>
+      <footer>
+      	<a href="#">What's this?</a>
+      	<a href="#">FAQ</a>
+      	<!-- <a href="#">Tip me [for the postage]</a> -->
+      	<a href="mailto:#">Contact me</a>
+      </footer>
 		</div><!-- Container -->
 		<!--
 			TO DO: 
@@ -40,20 +52,16 @@
 			- new background image[s]
 			- php form email to me and confirmation to recipient
 			- js validation, maybe use a library for this with dropdowns and such
-			- country codes
-			- tip jar [for postage]
 			- anti-spam/anti-bot measure
-			- stickyfooter
-			- mobile/tablet testing
-			- about/contact/faqs page
+			- about/contact/faqs page content
 			- documentation - tbd
-			- administrative stuff just for me
-			- rm unused code
 			- bower/scss
 			- analytics
-			- jasmine testing? lol
-			- fonts
 			- combine stylesheets/this is probably part of scss
+			- set up an email address for this and forward it to my addy
+			NEXT ITERATION: 
+			- tip jar
+			- mobile/tablet testing
 		-->
 	</body>
 </html>
