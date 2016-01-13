@@ -19,6 +19,9 @@
 	<body>
 		<div class="container bg" data-ibg-bg="bg.jpg">
 			<div class="addressform">
+				<?php
+// prints e.g. 'Current PHP version: 4.1.1'
+echo 'Current PHP version: ' . phpversion(); ?>
 				<h1>Want a postcard? Enter your info here.</h1>
 				<form class="sendform">
 					<input type="text" placeholder="name (required)" name="name" />
