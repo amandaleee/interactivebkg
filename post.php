@@ -14,7 +14,7 @@
 		
 		$subject = "Contact Form";
 		$headers = "From: $email";
-	// 	$messages = "Name: $name \\r\
+	// 	$messages = "Name: $name 
  // Email: $email \\r\
 	// 	$mailsent = mail($to, $subject, $messages, $headers);
 		
