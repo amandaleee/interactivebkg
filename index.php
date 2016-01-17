@@ -20,7 +20,7 @@
 		<div class="container bg" data-ibg-bg="bg.jpg">
 			<div class="addressform">
 				<h1>Want a postcard? Enter your info here.</h1>
-				<form class="sendform">
+				<form class="sendform" method="post" action="post.php">
 					<input type="text" placeholder="name (required)" name="name" />
 					<input type="text" placeholder="address" name="address" />
 					<input type="text" placeholder="city" name="city" />
@@ -34,6 +34,10 @@
 					
 					<input type="submit" value="sendmeapostcard" />
 				</form>
+				<!-- <form class="sendform" action="thankyou.php" method="post">
+				<input type="text" name="email"/>
+								<input type="submit" value="Keep me posted!" />
+				</form> -->
 			</div>
 		
     	<script type="text/javascript">
