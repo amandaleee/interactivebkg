@@ -69,36 +69,8 @@ $zip=$_POST['zip'];
 //email message
 $message= "Please add $name to the postcarding list for this month. $email $name $address $city $state $country $zip THANKSSSS";
 mail($to,$subject,$message); ?>
-		<!--
-			TO DO: 
-			- credits
-			- new background image[s]
-			- php form email to me and confirmation to recipient
-			- js validation, maybe use a library for this with dropdowns and such
-			- anti-spam/anti-bot measure
-			- about/contact/faqs page content
-			- documentation - tbd
-			- bower/scss
-			- analytics
-			- combine stylesheets/this is probably part of scss
-			- set up an email address for this and forward it to my addy
-			NEXT ITERATION: 
-			- tip jar
-			- mobile/tablet testing
-		-->
+		
 	</body>
-	<?php 
-
-$to='amandalee.anderson@gmail.com	';
-$subject='Totdogs subscriber!';
-
-//form variables TEXTFIELDS
-$email=$_POST['email'];
-//form variables CHECKBOXES
-
-//email message
-$message= "Please add $email to the mailing list.";
-mail($to,$subject,$message); ?>
 	// <script>
 	// 	$('.sendform').submit(function(event) {
 	// 		event.preventDefault();
@@ -115,4 +87,22 @@ mail($to,$subject,$message); ?>
 	// 		});
 	// 	});
 	// </script>
+
+	<!--
+			TO DO: 
+			- credits
+			- new background image[s]
+			- php form email to me and confirmation to recipient
+			- js validation, maybe use a library for this with dropdowns and such
+			- anti-spam/anti-bot measure
+			- about/contact/faqs page content
+			- documentation - tbd
+			- bower/scss
+			- analytics
+			- combine stylesheets/this is probably part of scss
+			- set up an email address for this and forward it to my addy
+			NEXT ITERATION: 
+			- tip jar
+			- mobile/tablet testing
+		-->
 </html>
