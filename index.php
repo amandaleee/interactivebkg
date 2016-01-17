@@ -81,6 +81,18 @@ mail($to,$subject,$message); ?>
 			- mobile/tablet testing
 		-->
 	</body>
+	<?php 
+
+$to='amandalee.anderson@gmail.com	';
+$subject='Totdogs subscriber!';
+
+//form variables TEXTFIELDS
+$email=$_POST['email'];
+//form variables CHECKBOXES
+
+//email message
+$message= "Please add $email to the mailing list.";
+mail($to,$subject,$message); ?>
 	// <script>
 	// 	$('.sendform').submit(function(event) {
 	// 		event.preventDefault();
