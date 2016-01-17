@@ -34,10 +34,13 @@
 					
 					<input type="submit" value="sendmeapostcard" />
 				</form>
-				<form class="sendform" action="thankyou.php" method="post">
+				<form class="sendform" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 				<input type="text" name="email"/>
 								<input type="submit" value="Keep me posted!" />
 				</form>
+				<?php if (isset($_POST['submit'])) : ?>
+				   <p>Thank you for subscribing!</p>
+				<?php endif; ?>
 			</div>
 		
     	<script type="text/javascript">
