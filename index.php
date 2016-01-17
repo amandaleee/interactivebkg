@@ -90,19 +90,21 @@ mail($to,$subject,$message); ?>
 
 	<!--
 			TO DO: 
+			- success/failure messaging is not showing
+			- email is still sending three times - twice empty and once properly filled in
 			- credits
 			- new background image[s]
-			- php form email to me and confirmation to recipient
 			- js validation, maybe use a library for this with dropdowns and such
-			- anti-spam/anti-bot measure
 			- about/contact/faqs page content
-			- documentation - tbd
 			- bower/scss
 			- analytics
 			- combine stylesheets/this is probably part of scss
 			- set up an email address for this and forward it to my addy
 			NEXT ITERATION: 
+			- auto-confirm to recipient
+			- anti-spam/anti-bot measure
 			- tip jar
 			- mobile/tablet testing
+			- documentation - tbd
 		-->
 </html>
