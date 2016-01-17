@@ -49,7 +49,20 @@
       	<!-- <a href="#">Tip me [for the postage]</a> -->
       	<a href="mailto:#">Contact me</a>
       </footer>
+
 		</div><!-- Container -->
+		<?php 
+
+$to='amandalee.anderson@gmail.com	';
+$subject='postcardtesting';
+
+//form variables TEXTFIELDS
+$email=$_POST['email'];
+//form variables CHECKBOXES
+
+//email message
+$message= "send me a postcard";
+mail($to,$subject,$message); ?>
 		<!--
 			TO DO: 
 			- credits
