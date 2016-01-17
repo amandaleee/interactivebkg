@@ -34,10 +34,10 @@
 					
 					<input type="submit" value="sendmeapostcard" />
 				</form>
-				<!-- <form class="sendform" action="thankyou.php" method="post">
+				<form class="sendform" action="thankyou.php" method="post">
 				<input type="text" name="email"/>
 								<input type="submit" value="Keep me posted!" />
-				</form> -->
+				</form>
 			</div>
 		
     	<script type="text/javascript">
@@ -68,20 +68,20 @@
 			- mobile/tablet testing
 		-->
 	</body>
-	<script>
-		$('.sendform').submit(function(event) {
-			event.preventDefault();
-			//delete this later
-			console.log($(this).closest('form').serialize());
-			$.ajax({
-				type: "POST",
-				url: "post.php",
-				data: $(this).serialize(),		
-				success: function(data){
-					// $('#result').html(data);
-					alert("success");
-				}					
-			});
-		});
-	</script>
+	// <script>
+	// 	$('.sendform').submit(function(event) {
+	// 		event.preventDefault();
+	// 		//delete this later
+	// 		console.log($(this).closest('form').serialize());
+	// 		$.ajax({
+	// 			type: "POST",
+	// 			url: "post.php",
+	// 			data: $(this).serialize(),		
+	// 			success: function(data){
+	// 				// $('#result').html(data);
+	// 				alert("success");
+	// 			}					
+	// 		});
+	// 	});
+	// </script>
 </html>
