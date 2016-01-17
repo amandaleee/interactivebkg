@@ -67,15 +67,16 @@ $zip=$_POST['zip'];
 //form variables CHECKBOXES - coming back to this
 
 //email message
-$message= "Please add $name to the postcarding list for this month.<br />
-$email <br />
-$name <br />
-$address <br />
-$city <br />
-$state <br />
-$country<br />
-$zip<br />
-THANKSSSS";
+$message= 
+"Please add $name to the postcarding list for this month." +
+"$email"+<br />
+"$name"+<br />
+"$address"+<br />
+"$city"+<br />
+"$state" +<br />
+"$country"+<br />
+"$zip"+
+"THANKSSSS";
 mail($to,$subject,$message); ?>
 		<!--
 			TO DO: 
