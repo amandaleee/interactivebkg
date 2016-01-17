@@ -53,7 +53,7 @@
 		<?php 
 
 $to='amandalee.anderson@gmail.com	';
-$subject='Someone wants a postcard!';
+$subject='Someone wants a postcard! 2:46 a.m.';
 
 //form variables TEXTFIELDS
 $email=$_POST['email'];
