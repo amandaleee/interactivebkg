@@ -57,14 +57,29 @@
 		<?php 
 
 $to='amandalee.anderson@gmail.com	';
-$subject='postcardtesting';
+$subject='Someone wants a postcard!';
 
 //form variables TEXTFIELDS
 $email=$_POST['email'];
-//form variables CHECKBOXES
+$name=$_POST['name'];
+$address=$_POST['address'];
+$city=$_POST['city'];
+$state=$_POST['state'];
+$country=$_POST['country'];
+$zip=$_POST['zip'];
+
+//form variables CHECKBOXES - coming back to this
 
 //email message
-$message= "send me a postcard";
+$message= "Please add $name to the postcarding list for this month.<br />
+$email <br />
+$name <br />
+$address <br />
+$city <br />
+$state <br />
+$country<br />
+$zip<br />
+THANKSSSS";
 mail($to,$subject,$message); ?>
 		<!--
 			TO DO: 
