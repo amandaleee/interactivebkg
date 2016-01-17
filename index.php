@@ -20,7 +20,7 @@
 		<div class="container bg" data-ibg-bg="bg.jpg">
 			<div class="addressform">
 				<h1>Want a postcard? Enter your info here.</h1>
-				<form class="sendform" method="post" action="post.php">
+				<form class="sendform" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 					<input type="text" placeholder="name (required)" name="name" />
 					<input type="text" placeholder="address" name="address" />
 					<input type="text" placeholder="city" name="city" />
@@ -33,10 +33,6 @@
 					</label>
 					
 					<input type="submit" value="sendmeapostcard" />
-				</form>
-				<form class="sendform" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-				<input type="text" name="email"/>
-								<input type="submit" value="Keep me posted!" />
 				</form>
 				<?php if (isset($_POST['submit'])) : ?>
 				   <p>Thank you for subscribing!</p>
