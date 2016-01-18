@@ -48,22 +48,11 @@ body {
 
 h1 { 
   color: white;
-  font-size: 2.5em; 
+  font-size: 1.7em; 
   font-weight: 300; 
   font-family: 'Noto Serif', serif;
 }
 
-h2 {
-  color: white; 
-  font-size: 1.5em; 
-  font-weight: 300; 
-}
-
-h3 { 
-  color: white;
-  font-size: 1.2em; 
-  font-weight: 400; 
-}
 
 .main  {
   margin: 25px auto;
