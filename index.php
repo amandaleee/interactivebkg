@@ -6,15 +6,14 @@
 		<title></title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<meta name="author" content="" /><!-- 
-		<link rel="shortcut icon" href="../file/favicon.gif">  -->
-    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<meta name="author" content="" />
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
    		<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
 		<!-- Edit Below -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
-		<script src="../file/js/modernizr.js"></script>
+		<link href='https://fonts.googleapis.com/ css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 	</head>
 	<body>
 		<div class="container bg" data-ibg-bg="background-january.jpg">
