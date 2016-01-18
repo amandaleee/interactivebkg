@@ -44,14 +44,14 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="mailto:info@sendpost.cards">Contact me</a>
+      	<a href="mailto:info@sendingpost.cards">Contact me</a>
       </footer>
 
 		</div><!-- Container -->
 		<?php 
 			// vars from form
 
-			$to='info@sendpost.cards	';
+			$to='info@sendingpost.cards	';
 			$email=$_POST['email'];
 			$name=$_POST['name'];
 			$address=$_POST['address'];
