@@ -20,19 +20,20 @@
 		<div class="container bg" data-ibg-bg="background-january.png">
 			<div class="addressform">
 				<h1>Want a postcard? <br />Enter your info here.</h1>
+				<p class="smaller">All fields are required.</p>
 				<form class="sendform" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
-					<input type="text" placeholder="name (required)" name="name" />
-					<input type="text" placeholder="address" name="address" />
-					<input type="text" placeholder="city" name="city" />
-					<input type="text" placeholder="state" name="state" />
-					<input type="text" placeholder="zip" name="zip" />
-					<input type="text" placeholder="country (required)" name="country" />
-					<input type="text" placeholder="email (required)" name="email" />
+					<input type="text" placeholder="name" name="name" required />
+					<input type="text" placeholder="address" name="address" required />
+					<input type="text" placeholder="city" name="city" required />
+					<input type="text" placeholder="state" name="state" required />
+					<input type="text" placeholder="zip" name="zip" required />
+					<input type="text" placeholder="country" name="country" required />
+					<input type="text" placeholder="email" name="email" required />
 					<label for="notabot" class="notabot" name="notabot">I'm not a bot
 						<input type="checkbox" value="i'm not a bot" name="notabot" />
 					</label>
 					
-					<input type="submit" value="sendmeapostcard" />
+					<input type="submit" value="send me a postcard" />
 				</form>
 				<?php if (isset($_POST['submit'])) : ?>
 				   <p>Thank you for subscribing!</p>

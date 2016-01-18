@@ -52,7 +52,9 @@ h1 {
   font-weight: 300; 
   font-family: 'Noto Serif', serif;
 }
-
+p.smaller {
+  font-size: .75em;
+}
 
 .main  {
   margin: 25px auto;
