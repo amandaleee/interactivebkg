@@ -43,14 +43,14 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="mailto:amandalee.anderson@gmail.com">Contact me</a>
+      	<a href="mailto:info@sendpost.cards">Contact me</a>
       </footer>
 
 		</div><!-- Container -->
 		<?php 
 			// vars from form
 
-			$to='amandalee.anderson@gmail.com	';
+			$to='info@sendpost.cards	';
 			$email=$_POST['email'];
 			$name=$_POST['name'];
 			$address=$_POST['address'];
