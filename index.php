@@ -17,7 +17,7 @@
 		<script src="../file/js/modernizr.js"></script>
 	</head>
 	<body>
-		<div class="container bg" data-ibg-bg="background-january.png">
+		<div class="container bg" data-ibg-bg="background-january.jpg">
 			<div class="addressform">
 				<h1>Want a postcard? <br />Enter your info here.</h1>
 				<p class="smaller">All fields are required.</p>
