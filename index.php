@@ -9,7 +9,6 @@
 		<meta name="author" content="" /><!-- 
 		<link rel="shortcut icon" href="../file/favicon.gif">  -->
     	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
    		<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
 		<!-- Edit Below -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -43,7 +42,7 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="mailto:#">Contact me</a>
+      	<a href="mailto:amandalee.anderson@gmail.com">Contact me</a>
       </footer>
 
 		</div><!-- Container -->
