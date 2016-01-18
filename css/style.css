@@ -109,8 +109,17 @@ h1 {
   border:1px solid #fff;
 }
 
-.addressform input:placeholder-shown {
-  color: #000;
+::-webkit-input-placeholder {
+    color: #000;
+}
+:-moz-placeholder {
+    color: #000;
+}
+::-moz-placeholder {
+    color: #000;
+}
+:-ms-input-placeholder {
+    color:  #000;
 }
 
 .addressform input[type="submit"] {
