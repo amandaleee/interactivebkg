@@ -13,7 +13,6 @@
 		<!-- Edit Below -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<script src="../file/js/modernizr.js"></script>
 	</head>
 	<body>
@@ -43,7 +42,7 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="mailto:#">Contact me</a>
+      	<a href="mailto:amandalee.anderson@gmail.com">Contact me</a>
       </footer>
 
 		</div><!-- Container -->

@@ -113,6 +113,7 @@ h3 {
 .addressform input {
   margin: 0 auto 1em;
   width: 100%;
+  color: #000;
 }
 
 .notabot { 
