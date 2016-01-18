@@ -17,8 +17,8 @@
 	</head>
 	<body>
 		<div class="container bg" data-ibg-bg="bg.jpg">
-			<h1>Want a postcard? Enter your info here.</h1>
 			<div class="addressform">
+				<h1>Want a postcard? Enter your info here.</h1>
 				<form class="sendform" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 					<input type="text" placeholder="name (required)" name="name" />
 					<input type="text" placeholder="address" name="address" />
