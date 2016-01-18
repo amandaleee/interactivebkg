@@ -36,6 +36,7 @@
 				</form>
 				<?php if (isset($_POST['submit'])) : ?>
 				   <p>Thank you for subscribing!</p>
+
 				<?php endif; ?>
 			</div>
 		
@@ -51,42 +52,34 @@
 
 		</div><!-- Container -->
 		<?php 
+			$to='amandalee.anderson@gmail.com';
 
-$to='amandalee.anderson@gmail.com	';
-$subject='Someone wants a postcard! 2:46 a.m.';
+			//form variables TEXTFIELDS
+			$email=$_POST['email'];
+			$name=$_POST['name'];
+			$address=$_POST['address'];
+			$city=$_POST['city'];
+			$state=$_POST['state'];
+			$country=$_POST['country'];
+			$zip=$_POST['zip'];
+			
+			//form variables CHECKBOXES - coming back to this
 
-//form variables TEXTFIELDS
-$email=$_POST['email'];
-$name=$_POST['name'];
-$address=$_POST['address'];
-$city=$_POST['city'];
-$state=$_POST['state'];
-$country=$_POST['country'];
-$zip=$_POST['zip'];
+			//subjects
+			$ala_subject='$name wants a postcard! ';//update this shit
+			$recipient_subject= 'You\'ve signed up to receive a postcard!';
 
-//form variables CHECKBOXES - coming back to this
+			//messages
+			$ala_message= 'Please add $name to the postcarding list for this month. $email $name $address $city $state $country $zip THANKSSSS';
+			$recipient_message = 'Hi! Thx for your submission. Here\'s the info we got from you. Email us if there\'s anything amiss. ALA will email you when these are being mailed.'
 
-//email message
-$message= "Please add $name to the postcarding list for this month. $email $name $address $city $state $country $zip THANKSSSS";
-mail($to,$subject,$message); ?>
+			//actually sending
+			mail($to,$ala_subject,$ala_message); 
+			// mail($email,$recipient_subject,$recipient_message);
+		?>
 		
 	</body>
-	// <script>
-	// 	$('.sendform').submit(function(event) {
-	// 		event.preventDefault();
-	// 		//delete this later
-	// 		console.log($(this).closest('form').serialize());
-	// 		$.ajax({
-	// 			type: "POST",
-	// 			url: "post.php",
-	// 			data: $(this).serialize(),		
-	// 			success: function(data){
-	// 				// $('#result').html(data);
-	// 				alert("success");
-	// 			}					
-	// 		});
-	// 	});
-	// </script>
+	
 
 	<!--
 			TO DO: 
