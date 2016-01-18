@@ -43,9 +43,6 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="#">What's this?</a>
-      	<a href="#">FAQ</a>
-      	<!-- <a href="#">Tip me [for the postage]</a> -->
       	<a href="mailto:#">Contact me</a>
       </footer>
 
