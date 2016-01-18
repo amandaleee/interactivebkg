@@ -68,7 +68,7 @@
 
 			//messages
 			$ala_message= 'Please add $name to the postcarding list for this month. $email $name $address $city $state $country $zip THANKSSSS';
-			$recipient_message = 'Hi! Thx for your submission. Here\'s the info we got from you. Email us if there\'s anything amiss. ALA will email you when these are being mailed.'
+			$recipient_message = 'Hi! Thx for your submission. Here\'s the info we got from you. Email us if there\'s anything amiss. ALA will email you when these are being mailed.';
 
 			//actually sending
 			mail($to,$ala_subject,$ala_message); 
