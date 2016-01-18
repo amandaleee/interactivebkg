@@ -9,11 +9,11 @@
 		<meta name="author" content="" /><!-- 
 		<link rel="shortcut icon" href="../file/favicon.gif">  -->
     	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
    		<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
 		<!-- Edit Below -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<script src="../file/js/modernizr.js"></script>
 	</head>
 	<body>
@@ -31,7 +31,6 @@
 					<label for="notabot" class="notabot" name="notabot">I'm not a bot
 						<input type="checkbox" value="i'm not a bot" name="notabot" />
 					</label>
-					
 					<input type="submit" value="send me a postcard" />
 				</form>
 				<?php if (isset($_POST['submit'])) : ?>
