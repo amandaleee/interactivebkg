@@ -32,7 +32,7 @@
 						<input type="checkbox" value="i'm not a bot" name="notabot" />
 					</label>
 					
-					<input type="submit" value="sendmeapostcard" />
+					<input type="submit" value="send me a postcard" />
 				</form>
 				<?php if (isset($_POST['submit'])) : ?>
 				   <p>Thank you for subscribing!</p>
@@ -44,9 +44,6 @@
         $(".bg").interactive_bg();
       </script>
       <footer>
-      	<a href="#">What's this?</a>
-      	<a href="#">FAQ</a>
-      	<!-- <a href="#">Tip me [for the postage]</a> -->
       	<a href="mailto:#">Contact me</a>
       </footer>
 
@@ -66,7 +63,7 @@
 			//form variables CHECKBOXES - coming back to this
 
 			//subjects
-			$ala_subject='$name wants a postcard! ';//update this shit
+			$ala_subject='$name wants a postcard! ';//update this
 			$recipient_subject= 'You\'ve signed up to receive a postcard!';
 
 			//messages
@@ -81,23 +78,5 @@
 	</body>
 	
 
-	<!--
-			TO DO: 
-			- success/failure messaging is not showing
-			- email is still sending three times - twice empty and once properly filled in
-			- credits
-			- new background image[s]
-			- js validation, maybe use a library for this with dropdowns and such
-			- about/contact/faqs page content
-			- bower/scss
-			- analytics
-			- combine stylesheets/this is probably part of scss
-			- set up an email address for this and forward it to my addy
-			NEXT ITERATION: 
-			- auto-confirm to recipient
-			- anti-spam/anti-bot measure
-			- tip jar
-			- mobile/tablet testing
-			- documentation - tbd
-		-->
+	
 </html>

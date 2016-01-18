@@ -86,7 +86,7 @@ footer {
     height: 60px;
     color: #fff;
 }
-footer a, footer a:hover, footer a:active {
+footer a, footer a:hover, footer a:active, footer a:visited {
 	color: #fff;
 	padding: 1em;
 	border:1px solid #fff;
