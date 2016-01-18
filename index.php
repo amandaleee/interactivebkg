@@ -63,7 +63,7 @@
 			$zip=$_POST['zip'];
 
 			//subject
-			$subject='$name wants a postcard!';
+			$subject='Someone wants a postcard! $name';
 
 			//email message
 			$message= "Please add $name to the postcarding list for this month. $email $name $address $city $state $country $zip THANKSSSS";
