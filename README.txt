@@ -16,6 +16,4 @@ http://www.onextrapixel.com
 			- email is still sending three times - twice empty and once properly filled in - maybe twice?
 			- new background image[s]
 			- bower/scss
-			- analytics
-			- combine stylesheets/this is probably part of scss
 			- set up an email address for this and forward it to my addy
