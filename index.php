@@ -6,11 +6,9 @@
 		<title></title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<meta name="author" content="" /><!-- 
-		<link rel="shortcut icon" href="../file/favicon.gif">  -->
+		<meta name="author" content="" />
     	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
    		<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
-		<!-- Edit Below -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -18,6 +16,7 @@
 	</head>
 	<body>
 		<div class="container bg" data-ibg-bg="background-january.jpg">
+
 			<div class="addressform">
 				<h1>Want a postcard? <br />Enter your info here.</h1>
 				<p class="smaller">All fields are required.</p>
@@ -32,25 +31,26 @@
 					<label for="notabot" class="notabot" name="notabot">I'm not a bot
 						<input type="checkbox" value="i'm not a bot" name="notabot" />
 					</label>
-					
 					<input type="submit" value="send me a postcard" />
 				</form>
+
 				<?php if (isset($_POST['submit'])) : ?>
 				   <p>Thank you for subscribing!</p>
 				<?php endif; ?>
-			</div>
+
+			</div><!--/addressform-->
 		
-    	<script type="text/javascript">
-        $(".bg").interactive_bg();
-      </script>
-      <footer>
-      	<a href="mailto:info@sendpost.cards">Contact me</a>
-      </footer>
+	    	<script type="text/javascript">
+		        $(".bg").interactive_bg();
+	        </script>
+
+	        <footer>
+	      		<a href="mailto:info@sendpost.cards">Contact me</a>
+	        </footer>
 
 		</div><!-- Container -->
 		<?php 
 			// vars from form
-
 			$to='info@sendpost.cards	';
 			$email=$_POST['email'];
 			$name=$_POST['name'];
@@ -68,13 +68,11 @@
 			mail($to,$subject,$message); ?>
 		
 	</body>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-2700135-20', 'auto');
-		  ga('send', 'pageview');
-</script>
-
-	
+	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			  ga('create', 'UA-2700135-20', 'auto');
+			  ga('send', 'pageview');
+	</script>
 </html>
