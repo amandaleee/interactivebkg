@@ -2,9 +2,9 @@
  
 //configs
 $email_to ='amandalee.anderson@gmail.com'; //put your email address here
-$email_subject_prefix ='contact form testing for sendingpost.cards '; //put the email sibject line prefix here
+$email_subject_prefix ='sendingpost.cards email form '; //put the email sibject line prefix here
 $email_from ='amandalee.anderson@gmail.com'; //put the email address that this form will be sent from
-$email_from_nice ='Postcarding - server'; //put in the 'nice' name for the email sender
+$email_from_nice ='SendingPost.Cards server'; //put in the 'nice' name for the email sender
  
 //If the form is submitted
 if(isset($_POST['submit'])) {
@@ -154,8 +154,9 @@ soon.</p>
  
                 <div>
                         <label for="message"><strong>Message:</strong></label>
-                        <textarea rows="8" cols="66" style="width: 376px" name="message" id="message" class="required"><?php echo $_POST['message']; ?></texta
-rea>
+                        <textarea rows="8" cols="66" style="width: 376px" name="message" id="message" class="required">
+                            <?php echo $_POST['message']; ?>
+                            </textarea>
                 </div>
  
                 <!-- The following field is for robots only, invisible to humans: -->
