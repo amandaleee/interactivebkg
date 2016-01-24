@@ -7,12 +7,14 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
+
     	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
    		<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
-		<script src="../file/js/modernizr.js"></script>
+		<link href='https://fonts.googleapis.com/ css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 	</head>
 	<body>
 		<div class="container bg" data-ibg-bg="background-january.jpg">
@@ -40,18 +42,18 @@
 
 			</div><!--/addressform-->
 		
-	    	<script type="text/javascript">
-		        $(".bg").interactive_bg();
-	        </script>
-
-	        <footer>
-	      		<a href="mailto:info@sendpost.cards">Contact me</a>
-	        </footer>
+    	<script type="text/javascript">
+        $(".bg").interactive_bg();
+      </script>
+      <footer>
+      	<a href="mailto:info@sendingpost.cards">Contact me</a>
+      </footer>
 
 		</div><!-- Container -->
 		<?php 
 			// vars from form
 			$to='info@sendpost.cards	';
+			$to='info@sendingpost.cards	';
 			$email=$_POST['email'];
 			$name=$_POST['name'];
 			$address=$_POST['address'];
